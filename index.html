@@ -11,20 +11,14 @@
     <header>
     </header>
     <main>
-        <!--<span class="wordClick" click="myAudioFunction('Dog_whine');">CLICK HERE</span>-->
       <div>
         <audio controls>
           <source src="/Audio/Keyboard.mp3" type="audio/mp3">
         </audio>
       </div>
       <div>
-        <!--<audio controls>
-          <source src="/Audio/Dog_Whining.wav" type="audio/wav">
-        </audio>-->
-        <span class="wordClick" click="myAudioFunction('Dog_whine')">
-          CLICK HERE
-        <!--<audio id="audio" src="/Audio/Dog_Whining.wav"></audio>-->
-        </span>
+        <audio id="dog" src="/Audio/Dog_Whining.wav" preload="auto"></audio>
+        <a href="javascript:play_single_sound();">CLICK HERE</a>
       </div>
     </main>
     <footer>
