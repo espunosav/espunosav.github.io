@@ -11,15 +11,20 @@
     <header>
     </header>
     <main>
+        <!--<span class="wordClick" click="myAudioFunction('Dog_whine');">CLICK HERE</span>-->
       <div>
         <audio controls>
           <source src="/Audio/Keyboard.mp3" type="audio/mp3">
         </audio>
       </div>
       <div>
-        <audio controls>
+        <!--<audio controls>
           <source src="/Audio/Dog_Whining.wav" type="audio/wav">
-        </audio>
+        </audio>-->
+        <span class="wordClick" click="play()">
+          CLICK HERE
+          <audio id="audio" src="/Audio/Dog_Whining.wav"></audio>
+        </span>
       </div>
     </main>
     <footer>
