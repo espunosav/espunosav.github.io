@@ -1,13 +1,3 @@
 div {
     display: inline-block;
 }
-audio {
-    display: inline-block;
-}
-.wordClick {
-    color: red;
-    cursor: pointer
-}
-.wordClick:hover {
-    color: blue;
-}
