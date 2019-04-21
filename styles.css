@@ -4,9 +4,3 @@ div {
 audio {
     display: inline-block;
 }
-.wordClick {
-    color: red;
-}
-.wordClick:hover {
-    color: blue;
-}
